@@ -1,0 +1,11 @@
+#spring.application.name=spring
+
+spring:
+  application:
+    name : Spring
+  profiles:
+    active: stage
+
+server:
+  servlet:
+    context-path: /istad
