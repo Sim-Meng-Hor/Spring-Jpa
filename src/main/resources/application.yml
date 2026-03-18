@@ -1,6 +1,14 @@
 #spring.application.name=spring
 
 spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 12345
+    url: jdbc:postgresql://localhost:5432/school_db
   application:
     name : Spring
   profiles:
